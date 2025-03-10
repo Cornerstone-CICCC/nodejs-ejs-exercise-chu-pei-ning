@@ -1,0 +1,38 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+header {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+nav {
+  align-self: center;
+}
+
+menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+.menu-li {
+  list-style: none;
+}
+
+main {
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  background-color: bisque;
+  text-align: center;
+}

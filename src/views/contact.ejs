@@ -1,0 +1,15 @@
+<%- include('partials/header', {pageTitle: "About us" }) %>
+  <main>
+    <h1>
+      <%= title %>
+    </h1>
+    <p>fjklsdjflkajd;flkajsdlkfjasdlkjfalskdjfal;sdjf;laksjdfl;kajdsgrpgisf;amnvk.</p>
+    <ul>
+      <% contacts.forEach(contact=> { %>
+        <li>
+          <%= contact %>
+        </li>
+        <% }) %>
+    </ul>
+  </main>
+  <%- include('partials/footer') %>
