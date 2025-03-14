@@ -1,7 +1,16 @@
 html,
 body {
+  height: 100%;
   margin: 0;
-  display: flex;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.container {
+  padding-bottom: 50px;
 }
 
 header {
